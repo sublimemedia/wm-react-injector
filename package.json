@@ -1,0 +1,23 @@
+{
+  "name": "wm-react-injector",
+  "version": "0.1.0",
+  "description": "A React component for injecting Wicker Man dependencies.",
+  "main": "WMInjector.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sublimemedia/wm-react-injector.git"
+  },
+  "author": "Sublime Media",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/sublimemedia/wm-react-injector/issues"
+  },
+  "homepage": "https://github.com/sublimemedia/wm-react-injector#readme",
+  "dependencies": {
+    "@sublimemedia/wicker-man-utilities": "^0.1.1",
+    "react": "0.13.x"
+  }
+}
