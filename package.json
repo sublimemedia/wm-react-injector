@@ -1,6 +1,6 @@
 {
-  "name": "wm-react-injector",
-  "version": "0.1.0",
+  "name": "@sublimemedia/wm-react-injector",
+  "version": "0.1.1",
   "description": "A React component for injecting Wicker Man dependencies.",
   "main": "WMInjector.jsx",
   "scripts": {
