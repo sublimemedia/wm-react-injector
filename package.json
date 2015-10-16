@@ -1,10 +1,11 @@
 {
   "name": "@sublimemedia/wm-react-injector",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A React component for injecting Wicker Man dependencies.",
-  "main": "WMInjector.jsx",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node node_modules/babel/bin/babel.js WMInjector.jsx > main.js",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,8 @@
   "dependencies": {
     "@sublimemedia/wicker-man-utilities": "^0.1.1",
     "react": "0.13.x"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23"
   }
 }

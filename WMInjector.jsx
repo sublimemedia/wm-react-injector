@@ -50,9 +50,8 @@ class WMInjector extends Component {
     return (
       <div {...rest}>
       {React.Children.map(this.props.children,
-        child => {
-          return React.cloneElement(child, extend({}, this.state.data, { persist: this.props.persist }, child.props));
-        },
+        (child =>
+          React.cloneElement(child, extend({}, this.state.data, { persist: this.props.persist }, child.props))),
         this)}
       </div>
     );
