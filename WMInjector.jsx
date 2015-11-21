@@ -51,7 +51,7 @@ class WMInjector extends Component {
       <div {...rest}>
       {React.Children.map(this.props.children,
         (child =>
-          React.cloneElement(child, extend({}, this.state.data, { persist: this.props.persist }, child.props))),
+          React.cloneElement(child, extend({}, this.state.data, { persist: persist }, child.props))),
         this)}
       </div>
     );
@@ -61,7 +61,7 @@ class WMInjector extends Component {
 
 WMInjector.propTypes = {
   data: React.PropTypes.object.isRequired,
-  persist: React.PropTypes.func
+  persist: React.PropTypes.object
 };
 
 export default WMInjector;
