@@ -1,6 +1,6 @@
 {
   "name": "@sublimemedia/wm-react-injector",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A React component for injecting Wicker Man dependencies.",
   "main": "main.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/sublimemedia/wm-react-injector.git"
   },
   "author": "Sublime Media",
-  "license": "UNLICENSED",
+  "license": "SEE LICENSE IN license.md",
   "bugs": {
     "url": "https://github.com/sublimemedia/wm-react-injector/issues"
   },
